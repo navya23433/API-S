@@ -10,5 +10,6 @@ if response.status_code==200:
     print("username:",user["username"])
     print("email:",user["email"])
     print("city:",user["address"]["city"])
+    print("ended")
 else:
     print("not found")    
